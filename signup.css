@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Island+Moments&family=Plus+Jakarta+Sans:wght@400;600;800&family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500;1,700&display=swap');
+
+*{
+    font-family: "Plus Jakarta Sans";
+    margin: 0;
+    padding: 0;
+}
+.login{
+    margin: auto;
+    width: 100%;
+    padding:20px;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+}
+
+.login-container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+  padding: 20px;
+}
+
+.side-container{
+position: absolute;;
+  border-radius: 50px;
+  width: 52%;
+  height: 100vh;
+  background: url(https://img.freepik.com/free-vector/blue-copy-space-digital-background_23-2148821698.jpg?w=740&t=st=1705320187~exp=1705320787~hmac=7bb77d22a1f1ded3a27f974b79dfb789ddca6da5448ccbd55a95f7f98aadbc26);
+  background-size: cover;
+  padding: 3rem;
+  z-index: -1;
+  left: -10%;
+  /* margin-left: -8rem; */
+}
+
+.text-container{
+  background-color: #759cc9;
+  border-radius: 40px;
+  height: auto;
+  padding: 2rem;
+  margin-top: 2rem;
+  width: 450px;
+
+}
+
+.text-container h1{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+    color: #043C7C;
+}
+
+.text-container h2{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.text-container h3{
+    font-weight: 600;
+    font-size: 1rem;
+    color: #043C7C;
+    margin-bottom: 2rem;
+
+}
+
+.semi{
+    font-size: 8rem;
+    margin-top: -1rem;
+    margin-bottom: -5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.text-container p{
+    margin: .5rem 0;
+    font-size: 1.2rem;
+    color: rgb(65, 65, 65);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #ffffff;
+    padding: 30px;
+    width: 500px;
+    border-radius: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  ::placeholder {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  .form h1{
+    margin-bottom: 1.5rem;
+    color: #043C7C;
+    font-size: 2.5rem;
+  }
+
+  .form button {
+    align-self: flex-end;
+  }
+  
+  .flex-column > label {
+    color: #151717;
+    font-weight: 600;
+  }
+  
+  .inputForm {
+    border: 1.5px solid #ecedec;
+    border-radius: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .input {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: none;
+    width: 85%;
+    height: 80%;
+  }
+  
+  .input:focus {
+    outline: none;
+  }
+  
+  .inputForm:focus-within {
+    border: 1.5px solid #2d79f3;
+  }
+  
+  .flex-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    justify-content: space-between;
+  }
+  
+  .flex-row > div > label {
+    font-size: 14px;
+    color: black;
+    font-weight: 400;
+  }
+  
+  .span {
+    font-size: 14px;
+    margin-left: 5px;
+    color: #2d79f3;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  
+  .button-submit {
+    margin: 20px 0 10px 0;
+    background-color: #151717;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .button-submit:hover {
+    background-color: #252727;
+  }
+  
+  .p {
+    text-align: center;
+    color: black;
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
+  .btn {
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    gap: 10px;
+    border: 1px solid #ededef;
+    background-color: white;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+  }
+  
+  .btn:hover {
+    border: 1px solid #2d79f3;
+    ;
+  }
+  
+  .flex-container{
+    display: flex;
+    gap: 10px;
+  }
+
+  .password,.confirm-password{
+    flex: 1;
+  }
+
+  @media (max-width:1020px){
+    .side-container{
+      display: none;
+  }
+
+  .side-design{
+    display: none;
+  }
+  .form{
+      margin: auto;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+    .flex-container{
+        flex-direction: column;
+    }
+    
+  }

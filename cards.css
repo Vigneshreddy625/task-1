@@ -1,0 +1,90 @@
+#cards{
+    width: 100%;
+    height: auto;
+    background-color:black;
+    padding: 20px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+
+#cards .card-text{
+    text-align: center;
+    font-size: 2.5rem;
+    color:white;
+    margin-bottom: 20px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.card{
+    padding: 20px;
+    border:none;
+    height: auto;
+    border-radius: 25px;
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+.card-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.card-1{
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.1);
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/6a30d53b14a551b9a027229a/sdsd.jpg");
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.card-2{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d3dbe8176ae2547f93db7651/ww.jpg");
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.1);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.card-3{
+    background-image: url("https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/8ed7181ea87f5edfabf0776a/qq.jpg");
+    box-shadow: 5px 5px 20px 0px rgba(0,0,0,0.1);
+    background-position: 50% 50%;
+    background-size: cover;
+}
+
+.card-row h1{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.card-row p{
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+@media(max-width:750px){
+
+    #cards{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+    .card-container{
+        flex-direction: column;
+        max-width: 600px;
+        margin: auto;
+        margin-top: 3rem;
+        gap: 3rem;
+    }
+
+    .card-col-1{
+        flex-basis: 100%;
+    }
+    .container{
+        flex-direction: column;
+    }
+    
+}

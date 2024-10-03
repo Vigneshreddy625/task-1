@@ -1,0 +1,119 @@
+#skill-mastery{
+    margin: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+}
+
+.skillMastery-container{
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+hr{
+    height: 2px;
+    width: 80%;
+    background-color: black;
+    display: none;
+    margin-top: -1rem;
+}
+
+.skillMastery-container h1{
+    font-size: 2.5rem;
+    margin: 0;
+    margin-bottom: 2rem;
+}
+
+.skillMastery-container p{
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.offer-row{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.offer-col-1{
+    display: flex;
+    justify-content: space-around;
+    
+    flex-wrap: wrap;
+}
+
+.offer-col-1 h2{
+    color: #101828;
+    letter-spacing: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-family: Switzer,Arial,sans-serif;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.offer-col-1 p{
+    color: #475467;
+    letter-spacing: normal;
+    font-family: Switzer,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+.offer-features{
+    min-width: 250px;
+    width: 15rem;
+}
+
+.offer-col-2{
+    background-color: white;
+}
+.offer-col-2 img{
+    max-width: 600px;
+    height: auto;
+    object-fit: cover;
+}
+
+@media(max-width: 1024px){
+
+    .skillMastery-container{
+        text-align: center;
+    }
+
+.skillMastery-container h1{
+    font-size: 2.2rem;
+}
+    .offer-row{
+        flex-direction: column-reverse;
+        margin: auto;
+        text-align: center;
+    }
+
+    .offer-col-1{
+        justify-content: space-evenly;
+        gap: 2rem;
+        margin-top: 1rem;
+        min-width: 250px;
+    }
+
+}
+
+@media(max-width: 750px){
+    hr{
+        display: block;
+    }
+    .offer-features{
+        width: 20rem;
+    }
+
+.offer-col-2 img{
+    width: 100%;
+}
+
+}
+

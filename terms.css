@@ -1,0 +1,26 @@
+.termsCondition{
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.terms-conainer{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.terms-conainer h1{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+}
+
+.terms-conainer h2{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.terms-row{
+    margin-bottom: 2rem;
+}

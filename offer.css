@@ -1,0 +1,116 @@
+#offer{
+    width: 100%;
+    height:auto;
+    background-color:white;
+    padding: 20px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    max-width: 1200px;
+    margin: auto;
+}
+
+#offer #t1{
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#offer #t2{
+    font-size: 1.5rem;
+    text-align: center;
+    color: black;
+}
+
+.ri-circle-fill{
+    color: black;
+    font-size: 1rem;
+    align-items: center;
+    padding-right: 6px;
+}
+
+.div li{
+    margin-top: .5rem;
+}
+
+.grid{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap: 2rem;
+    grid-row-gap: 30px;
+    justify-content: center;
+}
+
+.item h1{
+    color: black;
+}
+.item{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+}
+.item img{
+    margin-right: 20px;
+    width: 50px;
+}
+
+.item li{
+    font-size: 18px;
+    color: black;
+    list-style: none;
+}
+
+.item-1{
+    background-image: url('imgs/cardbg1.jpg');
+    background-size: cover;
+}
+
+.item-2{
+    background-image: url('imgs/cardbg2.jpg');
+    background-size: cover;
+}
+
+.item-3{
+    background-image: url('imgs/cardbg3.jpg');
+    background-size: cover;
+}
+
+.item-4{
+    background-image: url('imgs/cardbg4.jpg');
+    background-size: cover;
+}
+
+@media (max-width:850px){
+    .grid{
+        grid-template-columns: repeat(1,auto);
+        gap: 3rem;
+    }
+    .offer-row{
+       flex-direction: column;
+       align-items: center;
+       gap: 30px;
+    }
+    .offer-col-1{
+        flex-basis: 100%;
+        text-align: center;
+    }
+    .offer-col-2{
+        width: 100%;
+    }
+    
+    .item li{
+        font-size: 1rem;
+    }
+
+    .item h1{
+        font-size: 1.2rem;
+    }
+
+}

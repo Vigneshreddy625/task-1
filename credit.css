@@ -1,0 +1,143 @@
+.credit{
+    margin: auto;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: 4rem;
+    padding-bottom: 5rem;
+    background-color: rgb(0, 0, 0);
+}
+
+.credit-container{
+    padding: 1.2rem 4rem;
+    background: linear-gradient(254.76deg,#15528b -24.86%,#171e40 104.85%);
+    box-shadow: 1px 1px 2.5rem rgba(22,66,116,.22);
+    border-radius: 1.25rem;
+    z-index: 2;
+    position: relative;
+    overflow: hidden;
+    max-width: 1200px;
+    box-sizing: border-box;
+    background-image: url(https://img.freepik.com/free-vector/realistic-white-monochrome-background_23-2149023993.jpg?size=626&ext=jpg&ga=GA1.1.1042262172.1680190452&semt=ais);
+    background-size: cover;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.credit-row-1{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    margin-top: 4rem;
+    align-items: center;
+}
+
+.credit-image img{
+    width: 4.5rem;
+    height: 4.5rem;
+    border-radius: 5px;
+    object-fit: cover;
+
+}
+
+
+.credit-text{
+    max-width: 700px;
+    /* margin-left: -rem; */
+}
+
+.credit-text h1{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.credit-text p{
+    padding-top: 10px;
+    font-size: 1rem;
+    line-height: 25px;
+    font-weight:500;
+}
+
+.cta-button {
+  align-items: center;
+  background-color: #043c7c;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  box-shadow: rgba(0, 0, 0, 0.02) 0 1px 3px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  justify-content: center;
+  line-height: 1.25;
+  margin: 0;
+  min-height: 3rem;
+  padding: calc(.875rem - 1px) calc(1.5rem - 1px);
+  position: relative;
+  transition: all 250ms;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  width: 10rem;
+}
+
+.cta-button:hover,
+.cta-button:focus {
+  background-color: #fb8332;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.cta-button:hover {
+  transform: translateY(-1px);
+}
+
+.company-logos{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.company-logo{
+    max-width: 4rem;
+    align-items: center;
+    height: auto;
+}
+
+@media(max-width: 750px){
+
+    .credit-row-1{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .credit-text h1{
+        font-size: 1.5rem;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .credit-text p{
+        margin-bottom: 2rem;
+    }
+
+    .credit-image img{
+        display: none;
+    }
+
+}
+
+@media(max-width: 550px){
+    .credit{
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+
+    .credit-container{
+        padding: 1rem 2rem;
+    }
+}
+

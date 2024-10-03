@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Course Cards</title>
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="footer.css" />
+    <link rel="stylesheet" href="coursePage.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.7.0/remixicon.css"
+      crossorigin=""
+    />
+  </head>
+  <body>
+    <div id="navbar">
+      <nav>
+        <img src="imgs/logo.png" alt="" />
+        <button id="close"><i class="bi bi-x-square-fill"></i></button>
+      </nav>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="ExecutiveManagement.html">Executive Management</a>
+        <div class="header-dropdown">
+          <a href="#">option 1</a>
+          <a href="#">option 2</a>
+          <a href="#">option 3</a>
+        </div>
+        <a href="hirefromus.html">Hire from us</a>
+        <a href="about.html">About us</a>
+        <a href="signup.html">Support</a>
+        <a
+          href="login.html"
+          class="nav-login"
+          style="
+            color: white;
+            background-color: #5cabdc;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 5px;
+            width: 110px;
+          "
+          >Login</a
+        >
+        <a
+          href="signup.html"
+          class="nav-signup"
+          style="
+            color: white;
+            background-color: #5cabdc;
+            padding: 8px 20px;
+            border: none;
+            border-radius: 5px;
+            width: 110px;
+          "
+          >Signup</a
+        >
+      </div>
+    </div>
+    <!-- <div id="header-dropdown" class="header-dropdown">
+			<a href="./ExecutiveManagement.html">Executive Management</a>
+			<a href="#">option 2</a>
+			<a href="#">option 3</a>
+		</div> -->
+    <header>
+      <div class="header-container">
+        <img src="imgs/logo.png" id="logo" />
+        <nav>
+          <a class="em-dropdown" href="#">
+            <p>Executive Management</p>
+            <img src="./imgs/play.png" alt="" />
+          </a>
+          <a href="hirefromus.html">Hire from us</a>
+          <a href="about.html">About us</a>
+          <a href="signup.html">Support</a>
+          <a href="login.html">Login</a>
+          <button class="btn-signup">Signup</button>
+        </nav>
+        <button class="hamburger" id="ham"><i class="bi bi-list"></i></button>
+      </div>
+    </header>
+
+    <section class="banner">
+      <div class="banner-container">
+        <div class="banner-row1">
+          <h1>Online Coding Courses</h1>
+          <p>
+            Most loved online coding courses for college students and working
+            professionals
+          </p>
+          <div class="banner-btn">
+            <div class="banner-btn1">Browse popular courses</div>
+            <div class="banner-btn2">Try for free</div>
+          </div>
+        </div>
+        <!-- <div class="banner-row2">
+					<img
+						src="https://img.freepik.com/free-vector/flat-hand-drawn-multitask-business-woman-illustrated_23-2148855946.jpg?w=740&t=st=1709835420~exp=1709836020~hmac=66b597eca5bcdfa79e4f948af4a051a99e9ca961d30fd96ec8f51ab71aee134a"
+						alt="" />
+				</div> -->
+      </div>
+    </section>
+
+    <section class="hero">
+      <div class="hero-container">
+        <div class="hero-text">
+          <h1>Trending Courses</h1>
+        </div>
+
+        <div class="courses-tabs">
+          <button class="course-tab-btn active" data-target="technical">
+            Technical
+          </button>
+          <button class="course-tab-btn" data-target="management">
+            Management
+          </button>
+          <button class="course-tab-btn" data-target="non-technical">
+            Non-Technical
+          </button>
+          <button class="course-tab-btn" data-target="life-sciences">
+            Life Sciences
+          </button>
+        </div>
+
+        <div class="hero-card-container">
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+              <h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+              <div class="hero-lecture">
+                <div class="card-sentence">
+                  <h2>56</h2>
+                  <p>Lectures</p>
+                </div>
+                <div class="card-sentence">
+                  <h2>30</h2>
+                  <p>Tests</p>
+                </div>
+              </div>
+              <h1 class="hero-card-price">₹399</h1>
+              <div class="card-buttons">
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+
+            <div class="card-content">
+              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+              <h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+              <div class="hero-lecture">
+                <div class="card-sentence">
+                  <h2>56</h2>
+                  <p>Lectures</p>
+                </div>
+                <div class="card-sentence">
+                  <h2>30</h2>
+                  <p>Tests</p>
+                </div>
+              </div>
+              <h1 class="hero-card-price">₹399</h1>
+              <div class="card-buttons">
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+              <h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+              <div class="hero-lecture">
+                <div class="card-sentence">
+                  <h2>56</h2>
+                  <p>Lectures</p>
+                </div>
+                <div class="card-sentence">
+                  <h2>30</h2>
+                  <p>Tests</p>
+                </div>
+              </div>
+              <h1 class="hero-card-price">₹399</h1>
+              <div class="card-buttons">
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+              <h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+              <div class="hero-lecture">
+                <div class="card-sentence">
+                  <h2>56</h2>
+                  <p>Lectures</p>
+                </div>
+                <div class="card-sentence">
+                  <h2>30</h2>
+                  <p>Tests</p>
+                </div>
+              </div>
+              <h1 class="hero-card-price">₹399</h1>
+              <div class="card-buttons">
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+              <h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+              <div class="hero-lecture">
+                <div class="card-sentence">
+                  <h2>56</h2>
+                  <p>Lectures</p>
+                </div>
+                <div class="card-sentence">
+                  <h2>30</h2>
+                  <p>Tests</p>
+                </div>
+              </div>
+              <h1 class="hero-card-price">₹399</h1>
+              <div class="card-buttons">
+                <button class="buy-now-button">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section class="topRated">
+			<div class="topRated-container">
+				<div class="topRated-text">
+					<h1>Top Rated Courses</h1>
+					<p>
+						Explore our Courses collection across various technologies to
+						enhance your learning and skyrocket your career to success
+					</p>
+				</div>
+
+				<div class="topRated-content">
+					<div class="topRated-img">
+						<img
+							src="https://www.tutorialspoint.com/market/public/assets/newDesign/img/top-rated-course-hero.png"
+							alt="" />
+					</div>
+					<div class="topRated-card-container">
+						<div class="topRated-card">
+							<div class="topRated-head">
+								<img
+									src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+									alt="Course Image" />
+								<h3>MS Excel Online Training</h3>
+							</div>
+							<div class="hero-lecture top-rated-lecture">
+								<h3>56</h3>
+								<p>Lectures</p>
+								<h3>| 10 Hours</h3>
+							</div>
+							<div class="topRated-button">
+								<h3>₹399.99</h3>
+								<button class="buy-now-button">Buy Now</button>
+							</div>
+						</div>
+
+						<div class="topRated-card">
+							<div class="topRated-head">
+								<img
+									src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+									alt="Course Image" />
+								<h3>MS Excel Online Training</h3>
+							</div>
+							<div class="hero-lecture top-rated-lecture">
+								<h3>56</h3>
+								<p>Lectures</p>
+								<h3>| 10 Hours</h3>
+							</div>
+							<div class="topRated-button">
+								<h3>₹399.99</h3>
+								<button class="buy-now-button">Buy Now</button>
+							</div>
+						</div>
+
+						<div class="topRated-card">
+							<div class="topRated-head">
+								<img
+									src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+									alt="Course Image" />
+								<h3>MS Excel Online Training</h3>
+							</div>
+							<div class="hero-lecture top-rated-lecture">
+								<h3>56</h3>
+								<p>Lectures</p>
+								<h3>| 10 Hours</h3>
+							</div>
+							<div class="topRated-button">
+								<h3>₹399.99</h3>
+								<button class="buy-now-button">Buy Now</button>
+							</div>
+						</div>
+
+						<div class="topRated-card">
+							<div class="topRated-head">
+								<img
+									src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+									alt="Course Image" />
+								<h3>MS Excel Online Training</h3>
+							</div>
+							<div class="hero-lecture top-rated-lecture">
+								<h3>56</h3>
+								<p>Lectures</p>
+								<h3>| 10 Hours</h3>
+							</div>
+							<div class="topRated-button">
+								<h3>₹399.99</h3>
+								<button class="buy-now-button">Buy Now</button>
+							</div>
+						</div>
+
+						<div class="topRated-card">
+							<div class="topRated-head">
+								<img
+									src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+									alt="Course Image" />
+								<h3>MS Excel Online Training</h3>
+							</div>
+							<div class="hero-lecture top-rated-lecture">
+								<h3>56</h3>
+								<p>Lectures</p>
+								<h3>| 10 Hours</h3>
+							</div>
+							<div class="topRated-button">
+								<h3>₹399.99</h3>
+								<button class="buy-now-button">Buy Now</button>
+							</div>
+						</div>
+
+						<div class="topRated-card">
+							<div class="topRated-head">
+								<img
+									src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+									alt="Course Image" />
+								<h3>MS Excel Online Training</h3>
+							</div>
+							<div class="hero-lecture top-rated-lecture">
+								<h3>56</h3>
+								<p>Lectures</p>
+								<h3>| 10 Hours</h3>
+							</div>
+							<div class="topRated-button">
+								<h3>₹399.99</h3>
+								<button class="buy-now-button">Buy Now</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section> -->
+
+    <section class="explore">
+      <div class="explore-container">
+        <div class="explore-head">
+          <h1>Explore all our <span>Courses</span></h1>
+        </div>
+
+        <div class="hero-card-container">
+          <div class="card explore-card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+				<div class="hero-lecture">
+				  <div class="card-sentence">
+					<h2>56</h2>
+					<p>Lectures</p>
+				  </div>
+				  <div class="card-sentence">
+					<h2>30</h2>
+					<p>Tests</p>
+				  </div>
+				</div>
+				<h1 class="hero-card-price">₹399</h1>
+				<div class="card-buttons">
+				  <button class="buy-now-button">Buy Now</button>
+				</div>
+			  </div>
+          </div>
+
+          <div class="card explore-card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+
+            <div class="card-content">
+				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+				<div class="hero-lecture">
+				  <div class="card-sentence">
+					<h2>56</h2>
+					<p>Lectures</p>
+				  </div>
+				  <div class="card-sentence">
+					<h2>30</h2>
+					<p>Tests</p>
+				  </div>
+				</div>
+				<h1 class="hero-card-price">₹399</h1>
+				<div class="card-buttons">
+				  <button class="buy-now-button">Buy Now</button>
+				</div>
+			  </div>
+          </div>
+
+          <div class="card explore-card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+				<div class="hero-lecture">
+				  <div class="card-sentence">
+					<h2>56</h2>
+					<p>Lectures</p>
+				  </div>
+				  <div class="card-sentence">
+					<h2>30</h2>
+					<p>Tests</p>
+				  </div>
+				</div>
+				<h1 class="hero-card-price">₹399</h1>
+				<div class="card-buttons">
+				  <button class="buy-now-button">Buy Now</button>
+				</div>
+			  </div>
+          </div>
+
+          <div class="card explore-card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+				<div class="hero-lecture">
+				  <div class="card-sentence">
+					<h2>56</h2>
+					<p>Lectures</p>
+				  </div>
+				  <div class="card-sentence">
+					<h2>30</h2>
+					<p>Tests</p>
+				  </div>
+				</div>
+				<h1 class="hero-card-price">₹399</h1>
+				<div class="card-buttons">
+				  <button class="buy-now-button">Buy Now</button>
+				</div>
+			  </div>
+          </div>
+
+          <div class="card explore-card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+				<div class="hero-lecture">
+				  <div class="card-sentence">
+					<h2>56</h2>
+					<p>Lectures</p>
+				  </div>
+				  <div class="card-sentence">
+					<h2>30</h2>
+					<p>Tests</p>
+				  </div>
+				</div>
+				<h1 class="hero-card-price">₹399</h1>
+				<div class="card-buttons">
+				  <button class="buy-now-button">Buy Now</button>
+				</div>
+			  </div>
+          </div>
+
+          <div class="card explore-card">
+            <div class="card-img">
+              <img
+                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
+                alt="Course Image"
+              />
+            </div>
+            <div class="card-content">
+				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
+				<div class="hero-lecture">
+				  <div class="card-sentence">
+					<h2>56</h2>
+					<p>Lectures</p>
+				  </div>
+				  <div class="card-sentence">
+					<h2>30</h2>
+					<p>Tests</p>
+				  </div>
+				</div>
+				<h1 class="hero-card-price">₹399</h1>
+				<div class="card-buttons">
+				  <button class="buy-now-button">Buy Now</button>
+				</div>
+			  </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="membership">
+      <div class="membership-container">
+        <div class="membership-row">
+          <div class="membership-img">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1661488246595-7f21bf98b7cb?w=400&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8dGVjaCUyMHRlYW18ZW58MHx8MHx8fDA%3D"
+              alt=""
+            />
+          </div>
+          <div class="membership-text">
+            <h1>
+              Annual<br />
+              <span>Membership</span>
+            </h1>
+            <p>
+              Become a valued member of Tutorials Point and enjoy unlimited
+              access to our vast library of top-rated Video Courses
+            </p>
+            <button class="buy-now-button">Subscribe Now</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="insight">
+      <div class="insight-container">
+        <div class="insight-head">
+          <h1>Latest Online Courses</h1>
+          <p>
+            The Latest Courses you can find on Tutorials Point are curated by
+            experts and industry veterans for you to flourish in the domain of
+            your choice.
+          </p>
+        </div>
+
+        <div class="insignt-head">
+          <h1>Upskill with our online courses with certificates</h1>
+          <p>
+            Online Courses with certificates by Tutorials Point help you master
+            your desired skills and climb up the career ladder.
+          </p>
+
+          <p>Our courses are categorized into:</p>
+          <ul>
+            <li><b>Featured:</b> Our top picks curated by in-house experts</li>
+            <li>
+              <b>Best-sellers:</b> Most bought courses by our loyal learners
+            </li>
+            <li>
+              <b>ost popular courses:</b> Curated by researching the most
+              in-demand technologies
+            </li>
+            <li>
+              <b>Latest Courses:</b> Exclusive premium courses that are new
+              additions and also our fast-sold
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="f-row">
+        <div class="f-col-1">
+          <p>
+            UnStartED is committed to promoting diversity and inclusion in the
+            workplace. We believe that everyone should have equal opportunities
+            to succeed regardless of their background, race, gender, or
+            socio-economic status.
+          </p>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="f-col-2">
+          <h1>Company</h1>
+          <ul>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="contact.html">Contact us</a></li>
+            <li><a href="refundPolicy.html">Refund Policy</a></li>
+            <li><a href="privacyPolicy.html">Privacy policy</a></li>
+            <li><a href="termsCondition.html">Terms & conditions</a></li>
+          </ul>
+        </div>
+        <div class="f-col-3">
+          <h1>More</h1>
+          <ul>
+            <li><a href="">Hire from us</a></li>
+            <li><a href="">Find work</a></li>
+            <li><a href="">Community</a></li>
+            <li><a href="">Events</a></li>
+            <li><a href="">Join with us</a></li>
+          </ul>
+        </div>
+        <div class="f-col-4">
+          <h1 style="padding-bottom: 10px">Quick Links</h1>
+          <button class="f-btn-1">Free Trial Access to the LMS</button><br />
+          <button class="f-btn-2">Contact and get support</button><br />
+          <p style="font-size: 18px; font-weight: 600; padding-top: 10px">
+            Are you hiring?<span style="padding-left: 10px"
+              ><a style="color: rgb(255, 255, 255)" href="#"
+                >Hire from us</a
+              ></span
+            >
+          </p>
+        </div>
+      </div>
+      <div class="logo-banner">
+        <h1>UnStartED</h1>
+      </div>
+    </footer>
+  </body>
+
+  <script>
+    const dropdown = document.querySelector(".em-dropdown");
+    let popup = document.getElementById("header-dropdown");
+
+    dropdown.addEventListener("click", function (event) {
+      popup.style.display = "flex";
+      popup.style.left = `${event.clientX}px`;
+      popup.style.top = `${event.clientY}px`;
+      event.stopPropagation();
+    });
+
+    document.addEventListener("click", function (event) {
+      if (!dropdown.contains(event.target) && !popup.contains(event.target)) {
+        popup.style.display = "none";
+      }
+    });
+    document.querySelectorAll(".course-tab-btn").forEach((button) => {
+      button.addEventListener("click", () => {
+        document
+          .querySelectorAll(".course-tab-btn")
+          .forEach((btn) => btn.classList.remove("active"));
+        button.classList.add("active");
+      });
+    });
+  </script>
+</html>
