@@ -100,89 +100,77 @@
 
     <section class="hero">
       <div class="hero-container">
-        <div class="hero-text">
-          <h1>Trending Courses</h1>
-        </div>
-
-        <div class="hero-card-container">
-          <div class="card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-              <div class="card-buttons">
-                <button class="buy-now-button">Buy Now</button>
-              </div>
-            </div>
+          <div class="hero-text">
+              <h1>Trending Courses</h1>
           </div>
 
-          <div class="card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
+          <div class="arrow arrow-left" onclick="scrollCards(-1)">&lt;</div>
+            <div class="arrow arrow-right" onclick="scrollCards(1)">&gt;</div>
 
-            <div class="card-content">
-              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-              <div class="card-buttons">
-                <button class="buy-now-button">Buy Now</button>
+          <div class="hero-card-container">
+              <div class="card">
+                  <div class="card-img">
+                      <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0" alt="Course Image" />
+                  </div>
+                  <div class="card-content">
+                      <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
+                      <div class="card-buttons">
+                          <button class="buy-now-button">Buy Now</button>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-              <div class="card-buttons">
-                <button class="buy-now-button">Buy Now</button>
+              <div class="card">
+                  <div class="card-img">
+                      <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0" alt="Course Image" />
+                  </div>
+                  <div class="card-content">
+                      <h2>Advanced Python Programming Techniques</h2>
+                      <div class="card-buttons">
+                          <button class="buy-now-button">Buy Now</button>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-              <div class="card-buttons">
-                <button class="buy-now-button">Buy Now</button>
+              <div class="card">
+                  <div class="card-img">
+                      <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0" alt="Course Image" />
+                  </div>
+                  <div class="card-content">
+                      <h2>Full Stack Web Development with React and Node.js</h2>
+                      <div class="card-buttons">
+                          <button class="buy-now-button">Buy Now</button>
+                      </div>
+                  </div>
               </div>
-            </div>
-          </div>
 
-          <div class="card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-              <h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-              <div class="card-buttons">
-                <button class="buy-now-button">Buy Now</button>
+              <div class="card">
+                  <div class="card-img">
+                      <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0" alt="Course Image" />
+                  </div>
+                  <div class="card-content">
+                      <h2>Machine Learning and Artificial Intelligence Fundamentals</h2>
+                      <div class="card-buttons">
+                          <button class="buy-now-button">Buy Now</button>
+                      </div>
+                  </div>
               </div>
-            </div>
+
+              <div class="card">
+                  <div class="card-img">
+                      <img src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0" alt="Course Image" />
+                  </div>
+                  <div class="card-content">
+                      <h2>Cloud Computing and DevOps Best Practices</h2>
+                      <div class="card-buttons">
+                          <button class="buy-now-button">Buy Now</button>
+                      </div>
+                  </div>
+              </div>
           </div>
-        </div>
       </div>
-    </section>
+  </section>
+
 
     <!-- <section class="topRated">
 			<div class="topRated-container">
@@ -315,191 +303,18 @@
 
     <section class="explore">
       <div class="explore-container">
-        <div class="explore-head">
-          <h1>Explore all our <span>Courses</span></h1>
-        </div>
-
-        <div class="courses-tabs">
-          <button class="course-tab-btn active" data-target="technical">
-            Technical
-          </button>
-          <button class="course-tab-btn" data-target="management">
-            Management
-          </button>
-          <button class="course-tab-btn" data-target="non-technical">
-            Non-Technical
-          </button>
-          <button class="course-tab-btn" data-target="life-sciences">
-            Life Sciences
-          </button>
-        </div>
-
-        <div class="hero-card-container">
-          <div class="card explore-card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
-				<div class="hero-lecture">
-				  <div class="card-sentence">
-					<h2>56</h2>
-					<p>Lectures</p>
-				  </div>
-				  <div class="card-sentence">
-					<h2>30</h2>
-					<p>Tests</p>
-				  </div>
-				</div>
-				<h1 class="hero-card-price">₹399</h1>
-				<div class="card-buttons">
-				  <button class="buy-now-button">Buy Now</button>
-				</div>
-			  </div>
+          <div class="explore-head">
+              <h1>Explore all our <span>Courses</span></h1>
           </div>
 
-          <div class="card explore-card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-
-            <div class="card-content">
-				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
-				<div class="hero-lecture">
-				  <div class="card-sentence">
-					<h2>56</h2>
-					<p>Lectures</p>
-				  </div>
-				  <div class="card-sentence">
-					<h2>30</h2>
-					<p>Tests</p>
-				  </div>
-				</div>
-				<h1 class="hero-card-price">₹399</h1>
-				<div class="card-buttons">
-				  <button class="buy-now-button">Buy Now</button>
-				</div>
-			  </div>
+          <div class="courses-tabs" id="courseTabs">
           </div>
 
-          <div class="card explore-card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
-				<div class="hero-lecture">
-				  <div class="card-sentence">
-					<h2>56</h2>
-					<p>Lectures</p>
-				  </div>
-				  <div class="card-sentence">
-					<h2>30</h2>
-					<p>Tests</p>
-				  </div>
-				</div>
-				<h1 class="hero-card-price">₹399</h1>
-				<div class="card-buttons">
-				  <button class="buy-now-button">Buy Now</button>
-				</div>
-			  </div>
+          <div class="hero-card-container" id="courseCards">
           </div>
-
-          <div class="card explore-card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
-				<div class="hero-lecture">
-				  <div class="card-sentence">
-					<h2>56</h2>
-					<p>Lectures</p>
-				  </div>
-				  <div class="card-sentence">
-					<h2>30</h2>
-					<p>Tests</p>
-				  </div>
-				</div>
-				<h1 class="hero-card-price">₹399</h1>
-				<div class="card-buttons">
-				  <button class="buy-now-button">Buy Now</button>
-				</div>
-			  </div>
-          </div>
-
-          <div class="card explore-card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
-				<div class="hero-lecture">
-				  <div class="card-sentence">
-					<h2>56</h2>
-					<p>Lectures</p>
-				  </div>
-				  <div class="card-sentence">
-					<h2>30</h2>
-					<p>Tests</p>
-				  </div>
-				</div>
-				<h1 class="hero-card-price">₹399</h1>
-				<div class="card-buttons">
-				  <button class="buy-now-button">Buy Now</button>
-				</div>
-			  </div>
-          </div>
-
-          <div class="card explore-card">
-            <div class="card-img">
-              <img
-                src="https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0"
-                alt="Course Image"
-              />
-            </div>
-            <div class="card-content">
-				<h2>Mastering Advanced Java with Object-Oriented Programming</h2>
-				<h3><i class="ri-user-3-line"></i> Metla Sudha Sekhar</h3>
-				<div class="hero-lecture">
-				  <div class="card-sentence">
-					<h2>56</h2>
-					<p>Lectures</p>
-				  </div>
-				  <div class="card-sentence">
-					<h2>30</h2>
-					<p>Tests</p>
-				  </div>
-				</div>
-				<h1 class="hero-card-price">₹399</h1>
-				<div class="card-buttons">
-				  <button class="buy-now-button">Buy Now</button>
-				</div>
-			  </div>
-          </div>
-        </div>
       </div>
-    </section>
+  </section>
+
 
     <section class="membership">
       <div class="membership-container">
@@ -625,6 +440,233 @@
       popup.style.top = `${event.clientY}px`;
       event.stopPropagation();
     });
+
+    function scrollCards(direction) {
+            const container = document.querySelector('.hero-card-container');
+            const scrollAmount = 320;
+            container.scrollBy({
+                left: direction * scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+
+        const courseData = {
+            technical: [
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17646/course_17646_image.png?v=1.0",
+                    title: "Mastering Advanced Java with Object-Oriented Programming",
+                    instructor: "Metla Sudha Sekhar",
+                    lectures: 56,
+                    tests: 30,
+                    price: "₹399"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                }
+            ],
+            management: [
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Project Management Professional (PMP) Certification",
+                    instructor: "John Doe",
+                    lectures: 45,
+                    tests: 20,
+                    price: "₹499"
+                }
+            ],
+            "non-technical": [
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Effective Communication Skills",
+                    instructor: "Jane Smith",
+                    lectures: 30,
+                    tests: 15,
+                    price: "₹299"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Effective Communication Skills",
+                    instructor: "Jane Smith",
+                    lectures: 30,
+                    tests: 15,
+                    price: "₹299"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Effective Communication Skills",
+                    instructor: "Jane Smith",
+                    lectures: 30,
+                    tests: 15,
+                    price: "₹299"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Effective Communication Skills",
+                    instructor: "Jane Smith",
+                    lectures: 30,
+                    tests: 15,
+                    price: "₹299"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Effective Communication Skills",
+                    instructor: "Jane Smith",
+                    lectures: 30,
+                    tests: 15,
+                    price: "₹299"
+                }
+            ],
+            "life-sciences": [
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Introduction to Molecular Biology",
+                    instructor: "Dr. Emily Brown",
+                    lectures: 40,
+                    tests: 25,
+                    price: "₹599"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Introduction to Molecular Biology",
+                    instructor: "Dr. Emily Brown",
+                    lectures: 40,
+                    tests: 25,
+                    price: "₹599"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Introduction to Molecular Biology",
+                    instructor: "Dr. Emily Brown",
+                    lectures: 40,
+                    tests: 25,
+                    price: "₹599"
+                },
+                {
+                    image: "https://d3mxt5v3yxgcsr.cloudfront.net/courses/17507/course_17507_image.jpg?v=1.0",
+                    title: "Introduction to Molecular Biology",
+                    instructor: "Dr. Emily Brown",
+                    lectures: 40,
+                    tests: 25,
+                    price: "₹599"
+                },
+            ]
+        };
+
+        function createCard(course) {
+            return `
+                <div class="card explore-card">
+                    <div class="card-img">
+                        <img src="${course.image}" alt="Course Image" />
+                    </div>
+                    <div class="card-content">
+                        <h2>${course.title}</h2>
+                        <h3><i class="ri-user-3-line"></i> ${course.instructor}</h3>
+                        <div class="hero-lecture">
+                            <div class="card-sentence">
+                                <h2>${course.lectures}</h2>
+                                <p>Lectures</p>
+                            </div>
+                            <div class="card-sentence">
+                                <h2>${course.tests}</h2>
+                                <p>Tests</p>
+                            </div>
+                        </div>
+                        <h1 class="hero-card-price">${course.price}</h1>
+                        <div class="card-buttons">
+                            <button class="buy-now-button">Buy Now</button>
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function displayCourses(category) {
+            const cardContainer = document.getElementById('courseCards');
+            cardContainer.innerHTML = '';
+            courseData[category].forEach(course => {
+                cardContainer.innerHTML += createCard(course);
+            });
+        }
+
+        function createTabs() {
+            const tabContainer = document.getElementById('courseTabs');
+            Object.keys(courseData).forEach((category, index) => {
+                const button = document.createElement('button');
+                button.className = `course-tab-btn ${index === 0 ? 'active' : ''}`;
+                button.textContent = category.charAt(0).toUpperCase() + category.slice(1);
+                button.dataset.target = category;
+                button.addEventListener('click', function() {
+                    document.querySelector('.course-tab-btn.active').classList.remove('active');
+                    this.classList.add('active');
+                    displayCourses(category);
+                });
+                tabContainer.appendChild(button);
+            });
+        }
+
+        createTabs();
+        displayCourses(Object.keys(courseData)[0]);
 
     document.addEventListener("click", function (event) {
       if (!dropdown.contains(event.target) && !popup.contains(event.target)) {
